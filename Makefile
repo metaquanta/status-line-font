@@ -9,3 +9,7 @@ svg:
 all: manifest.json
 	./scripts/generate.py manifest.json
 .PHONY: all
+
+clean:
+	$(MAKE) -C svg clean
+.PHONY: clean
