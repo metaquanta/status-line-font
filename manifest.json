@@ -43,20 +43,12 @@
   },
   "options": {
     "autowidth": true,
-    "config": "fontcustom.yml",
     "copyright": ":(",
-    "css3": false,
-    "css_selector": ".icon-{{glyph}}",
-    "debug": false,
     "font_ascent": 14,
     "font_descent": 2,
     "font_design_size": 16,
     "font_em": 16,
     "font_name": "batteries",
-    "force": false,
-    "input": {
-      "vectors": "svg"
-    },
     "no_hash": true,
     "output": {
       "fonts": "batteries"
