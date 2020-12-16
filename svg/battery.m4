@@ -1,9 +1,9 @@
-define(`_WIDTH', 16)
+define(`_WIDTH', 24)
 define(`_HEIGHT', 16)
 define(`_X0', 0)
-define(`_Y0', 3)
-define(`_XF', 14)
-define(`_YF', 12)
+define(`_Y0', 2)
+define(`_XF', 22)
+define(`_YF', 14)
 define(`_TH', 1)
 define(`_FILL', `M`'eval(_X0`+2*'_TH) eval(_Y0`+2*'_TH) h`'_LEVEL V`'eval(_YF`-2*'_TH) H`'eval(_X0`+2*'_TH) z')
 define(`_BATTERY', `<svg width="_WIDTH" height="_HEIGHT" xmlns="http://www.w3.org/2000/svg">

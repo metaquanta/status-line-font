@@ -9,3 +9,7 @@ svg = $(src:.svg.m4=.svg)
 
 all: $(svg)
 .PHONY: all
+
+clean:
+	rm *.svg
+.PHONY: clean
