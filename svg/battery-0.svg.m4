@@ -1,3 +1,3 @@
-include(battery.m4)
-define(`_FILL', `')
+include(battery.m4)dnl
+define(`_FILL', `')dnl
 _BATTERY

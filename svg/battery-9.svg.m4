@@ -1,3 +1,3 @@
-include(`battery.m4')
-define(`_LEVEL', `9')
+include(`battery.m4')dnl
+define(`_LEVEL', `9')dnl
 _BATTERY
