@@ -1,16 +1,4 @@
 {
-  "fonts": [
-    "batteries/batteries.ttf",
-    "batteries/batteries.svg",
-    "batteries/batteries.woff",
-    "batteries/batteries.eot",
-    "batteries/batteries.woff2",
-    "batteries/batteries.ttf",
-    "batteries/batteries.svg",
-    "batteries/batteries.woff",
-    "batteries/batteries.eot",
-    "batteries/batteries.woff2"
-  ],
   "glyphs": {
     "battery-0": {
       "codepoint": 58016,
@@ -67,24 +55,11 @@
     "font_name": "batteries",
     "force": false,
     "input": {
-      "templates": "svg",
       "vectors": "svg"
     },
     "no_hash": true,
     "output": {
-      "css": "batteries",
-      "fonts": "batteries",
-      "preview": "batteries"
-    },
-    "preprocessor_path": "",
-    "quiet": false,
-    "templates": [
-      "css",
-      "preview"
-    ]
-  },
-  "templates": [
-    "batteries/batteries.css",
-    "batteries/batteries-preview.html"
-  ]
+      "fonts": "batteries"
+    }
+  }
 }
