@@ -1,0 +1,10 @@
+define(`_CODEPOINT', 58016)
+define(`_WIDTH', 16)dnl
+define(`_HEIGHT', 16)dnl
+define(`_X0', 0)dnl
+define(`_Y0', 3)dnl
+define(`_XF', 14)dnl
+define(`_YF', 12)dnl
+define(`_TH', 1)dnl
+define(`_BUTTON_W', 5)dnl
+define(`_BUTTON_D', 1)dnl

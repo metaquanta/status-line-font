@@ -1,6 +1,7 @@
+include(`svg/parameters.m4')
 define(`_GLYPH', 
 `    "battery-`'$1": {
-      "codepoint": eval($1`+58016'),
+      "codepoint": eval($1`+''_CODEPOINT`),
       "source": "svg/battery-$1.svg"
     }')
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <!--
-2020-12-16: Created with FontForge (http://fontforge.org)
+2020-12-18: Created with FontForge (http://fontforge.org)
 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20201107 at Wed Dec 16 15:47:23 2020
+Created by FontForge 20201107 at Fri Dec 18 08:05:22 2020
  By m
 metaquanta
 </metadata>
@@ -28,40 +28,40 @@ metaquanta
     <glyph glyph-name="space" unicode=" " horiz-adv-x="200" 
  />
     <glyph glyph-name="battery-0" unicode="&#xe2a0;" 
-d="M0 12h21v-2h1v-8h-1v-2h-21v12zM1 1h19v2h1v6h-1v2h-19v-10z" />
+d="M0 12h21v-3h1v-6h-1v-3h-21v12zM1 1h19v3v0v4v0v3h-19v-10z" />
     <glyph glyph-name="battery-1" unicode="&#xe2a1;" 
-d="M0 12h21v-2h1v-8h-1v-2h-21v12zM1 1h19v2h1v6h-1v2h-19v-10zM2 10h1v-8h-1v8z" />
+d="M0 12h21v-3h1v-6h-1v-3h-21v12zM1 1h19v3v0v4v0v3h-19v-10zM2 10h1v-8h-1v8z" />
     <glyph glyph-name="battery-10" unicode="&#xe2aa;" 
-d="M0 12h21v-2h1v-8h-1v-2h-21v12zM1 1h19v2h1v6h-1v2h-19v-10zM2 10h10v-8h-10v8z" />
+d="M0 12h21v-3h1v-6h-1v-3h-21v12zM1 1h19v3v0v4v0v3h-19v-10zM2 10h10v-8h-10v8z" />
     <glyph glyph-name="battery-11" unicode="&#xe2ab;" 
-d="M0 12h21v-2h1v-8h-1v-2h-21v12zM1 1h19v2h1v6h-1v2h-19v-10zM2 10h11v-8h-11v8z" />
+d="M0 12h21v-3h1v-6h-1v-3h-21v12zM1 1h19v3v0v4v0v3h-19v-10zM2 10h11v-8h-11v8z" />
     <glyph glyph-name="battery-12" unicode="&#xe2ac;" 
-d="M0 12h21v-2h1v-8h-1v-2h-21v12zM1 1h19v2h1v6h-1v2h-19v-10zM2 10h12v-8h-12v8z" />
+d="M0 12h21v-3h1v-6h-1v-3h-21v12zM1 1h19v3v0v4v0v3h-19v-10zM2 10h12v-8h-12v8z" />
     <glyph glyph-name="battery-13" unicode="&#xe2ad;" 
-d="M0 12h21v-2h1v-8h-1v-2h-21v12zM1 1h19v2h1v6h-1v2h-19v-10zM2 10h13v-8h-13v8z" />
+d="M0 12h21v-3h1v-6h-1v-3h-21v12zM1 1h19v3v0v4v0v3h-19v-10zM2 10h13v-8h-13v8z" />
     <glyph glyph-name="battery-14" unicode="&#xe2ae;" 
-d="M0 12h21v-2h1v-8h-1v-2h-21v12zM1 1h19v2h1v6h-1v2h-19v-10zM2 10h14v-8h-14v8z" />
+d="M0 12h21v-3h1v-6h-1v-3h-21v12zM1 1h19v3v0v4v0v3h-19v-10zM2 10h14v-8h-14v8z" />
     <glyph glyph-name="battery-15" unicode="&#xe2af;" 
-d="M0 12h21v-2h1v-8h-1v-2h-21v12zM1 1h19v2h1v6h-1v2h-19v-10zM2 10h15v-8h-15v8z" />
+d="M0 12h21v-3h1v-6h-1v-3h-21v12zM1 1h19v3v0v4v0v3h-19v-10zM2 10h15v-8h-15v8z" />
     <glyph glyph-name="battery-16" unicode="&#xe2b0;" 
-d="M0 12h21v-2h1v-8h-1v-2h-21v12zM1 1h19v2h1v6h-1v2h-19v-10zM2 10h16v-8h-16v8z" />
+d="M0 12h21v-3h1v-6h-1v-3h-21v12zM1 1h19v3v0v4v0v3h-19v-10zM2 10h16v-8h-16v8z" />
     <glyph glyph-name="battery-17" unicode="&#xe2b1;" 
-d="M0 12h21v-2h1v-8h-1v-2h-21v12zM1 1h19v2h1v6h-1v2h-19v-10zM2 10h17v-8h-17v8z" />
+d="M0 12h21v-3h1v-6h-1v-3h-21v12zM1 1h19v3v0v4v0v3h-19v-10zM2 10h17v-8h-17v8z" />
     <glyph glyph-name="battery-2" unicode="&#xe2a2;" 
-d="M0 12h21v-2h1v-8h-1v-2h-21v12zM1 1h19v2h1v6h-1v2h-19v-10zM2 10h2v-8h-2v8z" />
+d="M0 12h21v-3h1v-6h-1v-3h-21v12zM1 1h19v3v0v4v0v3h-19v-10zM2 10h2v-8h-2v8z" />
     <glyph glyph-name="battery-3" unicode="&#xe2a3;" 
-d="M0 12h21v-2h1v-8h-1v-2h-21v12zM1 1h19v2h1v6h-1v2h-19v-10zM2 10h3v-8h-3v8z" />
+d="M0 12h21v-3h1v-6h-1v-3h-21v12zM1 1h19v3v0v4v0v3h-19v-10zM2 10h3v-8h-3v8z" />
     <glyph glyph-name="battery-4" unicode="&#xe2a4;" 
-d="M0 12h21v-2h1v-8h-1v-2h-21v12zM1 1h19v2h1v6h-1v2h-19v-10zM2 10h4v-8h-4v8z" />
+d="M0 12h21v-3h1v-6h-1v-3h-21v12zM1 1h19v3v0v4v0v3h-19v-10zM2 10h4v-8h-4v8z" />
     <glyph glyph-name="battery-5" unicode="&#xe2a5;" 
-d="M0 12h21v-2h1v-8h-1v-2h-21v12zM1 1h19v2h1v6h-1v2h-19v-10zM2 10h5v-8h-5v8z" />
+d="M0 12h21v-3h1v-6h-1v-3h-21v12zM1 1h19v3v0v4v0v3h-19v-10zM2 10h5v-8h-5v8z" />
     <glyph glyph-name="battery-6" unicode="&#xe2a6;" 
-d="M0 12h21v-2h1v-8h-1v-2h-21v12zM1 1h19v2h1v6h-1v2h-19v-10zM2 10h6v-8h-6v8z" />
+d="M0 12h21v-3h1v-6h-1v-3h-21v12zM1 1h19v3v0v4v0v3h-19v-10zM2 10h6v-8h-6v8z" />
     <glyph glyph-name="battery-7" unicode="&#xe2a7;" 
-d="M0 12h21v-2h1v-8h-1v-2h-21v12zM1 1h19v2h1v6h-1v2h-19v-10zM2 10h7v-8h-7v8z" />
+d="M0 12h21v-3h1v-6h-1v-3h-21v12zM1 1h19v3v0v4v0v3h-19v-10zM2 10h7v-8h-7v8z" />
     <glyph glyph-name="battery-8" unicode="&#xe2a8;" 
-d="M0 12h21v-2h1v-8h-1v-2h-21v12zM1 1h19v2h1v6h-1v2h-19v-10zM2 10h8v-8h-8v8z" />
+d="M0 12h21v-3h1v-6h-1v-3h-21v12zM1 1h19v3v0v4v0v3h-19v-10zM2 10h8v-8h-8v8z" />
     <glyph glyph-name="battery-9" unicode="&#xe2a9;" 
-d="M0 12h21v-2h1v-8h-1v-2h-21v12zM1 1h19v2h1v6h-1v2h-19v-10zM2 10h9v-8h-9v8z" />
+d="M0 12h21v-3h1v-6h-1v-3h-21v12zM1 1h19v3v0v4v0v3h-19v-10zM2 10h9v-8h-9v8z" />
   </font>
 </defs></svg>

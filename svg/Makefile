@@ -11,5 +11,5 @@ all: $(svg)
 .PHONY: all
 
 clean:
-	rm *.svg
+	$(RM) *.svg
 .PHONY: clean
