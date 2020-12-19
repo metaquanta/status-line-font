@@ -1,3 +1,2 @@
-svg/*.svg
-manifest.json
-svg/parameters.m4
+src/*.svg
+src/manifest.json

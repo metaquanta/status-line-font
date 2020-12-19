@@ -1,32 +1,16 @@
 
-manifest.json: svg
-	m4 manifest.json.m4 > manifest.json
+src:
+	$(MAKE) -C src all
+.PHONY: src
 
-svg:
-	$(MAKE) -C svg clean
-	$(MAKE) -C svg
-.PHONY: svg
+status-line-font.ttf status-line-font.eot status-line-font.woff status-line-font.woff2 status-line-font.svg:src
+	./lib/generate.py ./src/manifest.json
 
-battery: battery.m4 manifest.json
-	./scripts/generate.py manifest.json
-.PHONY: battery
-
-battery.m4:
-	cp ./battery.m4 ./svg/parameters.m4
-.PHONY: battery.m4
-
-battery_wide: battery_wide.m4 manifest.json
-	./scripts/generate.py manifest.json
-.PHONY: battery_wide
-
-battery_wide.m4:
-	cp battery_wide.m4 ./svg/parameters.m4
-.PHONY: battery_wide.m4
+all: status-line-font.ttf status-line-font.eot status-line-font.woff status-line-font.woff2 status-line-font.svg
+.DEFAULT: all
+.PHONY: all
 
 clean:
-	$(MAKE) -C svg clean
-	$(RM) manifest.json
-	$(RM) ./svg/parameters.m4
+	$(MAKE) -C src clean
+	$(RM) *.ttf *.eot *.woff *.woff2 *.svg
 .PHONY: clean
-
-.DEFAULT: battery_wide

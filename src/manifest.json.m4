@@ -1,14 +1,13 @@
-include(`svg/parameters.m4')
 define(`_GLYPH', 
-`    "battery-`'$1": {
-      "codepoint": eval($1`+''_CODEPOINT`),
-      "source": "svg/battery-$1.svg"
+`    "$1": {
+      "codepoint": esyscmd(`echo $1 | cut -d _ -f 2'),
+      "source": "src/$1.svg"
     }')
 
 define(
   `_GLYPHS',
   `esyscmd(
-    `ls svg/*svg | sed -e "s/^svg\/battery-\(\S*\)\.svg/_GLYPH(\1)/" | tr "\n" " " | sed -e "s/) _/), _/g" '
+    `./code_points.sh | tr : _ | sed -e "s/^\(.*\)/_GLYPH(\1)/" | tr "\n" " " | sed "s/) _/),\n_/g"'
   )'
 )
 
@@ -23,10 +22,10 @@ _GLYPHS
     "font_descent": 2,
     "font_design_size": 16,
     "font_em": 16,
-    "font_name": "batteries",
+    "font_name": "status-line-font",
     "no_hash": true,
     "output": {
-      "fonts": "batteries"
+      "fonts": ""
     }
   }
 }
