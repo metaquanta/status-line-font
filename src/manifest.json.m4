@@ -24,8 +24,5 @@ _GLYPHS
     "font_em": 16,
     "font_name": "status-line-font",
     "no_hash": true,
-    "output": {
-      "fonts": ""
-    }
   }
 }

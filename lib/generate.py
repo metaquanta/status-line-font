@@ -94,7 +94,7 @@ for glyph, data in manifest['glyphs'].items():
 #
 
 try:
-    fontfile = options['output']['fonts'] + '/' + options['font_name']
+    fontfile = options['font_name']
     if not options['no_hash']:
         fontfile += '_' + manifest['checksum']['current'][:32]
 
