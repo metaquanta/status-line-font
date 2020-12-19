@@ -3,11 +3,11 @@ src:
 	$(MAKE) -C src all
 .PHONY: src
 
-status-line-font.ttf status-line-font.eot status-line-font.woff status-line-font.woff2 status-line-font.svg:src
+fonts: src
 	./lib/generate.py ./src/manifest.json
+.PHONY: fonts
 
-all: status-line-font.ttf status-line-font.eot status-line-font.woff status-line-font.woff2 status-line-font.svg
-.DEFAULT: all
+all: fonts
 .PHONY: all
 
 clean:
