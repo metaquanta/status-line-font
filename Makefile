@@ -3,7 +3,7 @@ all: fonts status-line-font.txt
 .PHONY: all
 
 src:
-	$(MAKE) -C src all
+	$(MAKE) -C src
 .PHONY: src
 
 fonts: src
@@ -15,5 +15,5 @@ status-line-font.txt: src
 
 clean:
 	$(MAKE) -C src clean
-	$(RM) *.ttf *.eot *.woff *.woff2 *.svg
+	$(RM) *.ttf *.woff *.woff2 *.svg
 .PHONY: clean

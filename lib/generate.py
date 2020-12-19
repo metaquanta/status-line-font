@@ -124,14 +124,6 @@ try:
         # sfnt2woff from source, simplifying install.
         subprocess.call(['sfnt2woff', fontfile + '.ttf'])
 
-    # Convert EOT for IE7
-    subprocess.call('python3 ' + scriptPath + '/eotlitetool.py ' + fontfile + '.ttf -o ' + fontfile + '.eot', shell=True)
-    # check if windows
-    if os.name == 'nt':
-        subprocess.call('move ' + fontfile + '.eotlite ' + fontfile + '.eot', shell=True)
-    else:
-        subprocess.call('mv ' + fontfile + '.eotlite ' + fontfile + '.eot', shell=True)
-
     # Convert TTF to WOFF2
     subprocess.call('woff2_compress \'' + fontfile + '.ttf\'', shell=True)
 
