@@ -5,6 +5,7 @@ import os
 import subprocess
 import tempfile
 import json
+import math
 
 #
 # Manifest / Options
@@ -42,8 +43,6 @@ font.fontname = options['font_name']
 font.familyname = options['font_name']
 font.fullname = options['font_name']
 font.copyright = options['copyright']
-if options['autowidth']:
-    font.autoWidth(0, 0, options['font_em'])
 
 #
 # Glyphs
@@ -69,22 +68,12 @@ def createGlyph( name, source, code ):
         glyph = font.createChar(code, name)
         glyph.importOutlines(temp)
         os.unlink(temp)
-
-        if options['autowidth']:
-            glyph.left_side_bearing = glyph.right_side_bearing = 0
-            glyph.round()
-        else:
-            glyph.width = options['font_em']
-            width = glyph.width - glyph.left_side_bearing - glyph.right_side_bearing
-            aligned_to_pixel_grid = (width % design_px == 0)
-            if (aligned_to_pixel_grid):
-                shift = glyph.left_side_bearing % design_px
-                glyph.left_side_bearing = glyph.left_side_bearing - shift
-                glyph.right_side_bearing = glyph.right_side_bearing + shift
+        width = glyph.width - glyph.left_side_bearing - glyph.right_side_bearing
+        glyph.width = options['font_width'] * math.ceil(width/options['font_width'])
 
 # Add valid space glyph to avoid "unknown character" box on IE11
 glyph = font.createChar(32)
-glyph.width = 200
+glyph.width = options['font_width']
 
 for glyph, data in manifest['glyphs'].items():
     name = createGlyph(glyph, data['source'], data['codepoint'])

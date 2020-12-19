@@ -16,7 +16,6 @@ define(
 _GLYPHS
   },
   "options": {
-    "autowidth": true,
     "copyright": "metaquanta",
     "font_ascent": 14,
     "font_descent": 2,
