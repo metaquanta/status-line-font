@@ -8,7 +8,8 @@ function codepoints {
     _BATTERY_WIDTH="${1}_BATTERY_WIDTH"
     _BATTERY_BUTTON_DEPTH="${1}_BATTERY_BUTTON_DEPTH"
     CODEPOINT=${!_BATTERY_CODEPOINT_START}
-    LEVELS=$(( ${!_BATTERY_WIDTH} - ${!_BATTERY_BUTTON_DEPTH} ))
+    # TODO: accomodate higher button depths
+    LEVELS=$(( ${!_BATTERY_WIDTH} - 1 ))
 
     n=$(( $LEVELS - 4 )) # _TH * 2, _TH^-1 * 2
 
