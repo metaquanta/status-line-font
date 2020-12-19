@@ -1,4 +1,7 @@
 
+all: fonts status-line-font.txt
+.PHONY: all
+
 src:
 	$(MAKE) -C src all
 .PHONY: src
@@ -9,9 +12,6 @@ fonts: src
 
 status-line-font.txt: src
 	./src/code_points.sh | sed -E -e 's/.*:(.*):.*/\1/' | xargs -ICP ./src/to_glyph.sh CP > status-line-font.txt
-
-all: fonts status-line-font.txt
-.PHONY: all
 
 clean:
 	$(MAKE) -C src clean
