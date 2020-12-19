@@ -23,6 +23,6 @@ _GLYPHS
     "font_design_size": 16,
     "font_em": 16,
     "font_name": "status-line-font",
-    "no_hash": true,
+    "no_hash": true
   }
 }

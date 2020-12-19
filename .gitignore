@@ -2,3 +2,8 @@ src/*.svg
 src/manifest.json
 src/settings_*.m4
 src/settings_*.m4
+status-line-font.eot
+status-line-font.svg
+status-line-font.ttf
+status-line-font.woff
+status-line-font.woff2
