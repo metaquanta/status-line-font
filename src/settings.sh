@@ -30,6 +30,8 @@ EOF
 
 }
 
+battery_settings VERTICAL
+
 battery_settings DOUBLE
 
 battery_settings TRIPLE
